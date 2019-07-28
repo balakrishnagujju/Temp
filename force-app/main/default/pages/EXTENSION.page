@@ -1,0 +1,10 @@
+<apex:page Controller="SarathOrg" EXtensions="SarathOrg1,SarathOrg2">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  <APEX:OUTputText VALUE="{!SAVE}"></APEX:OUTputText>
+  <apex:form >
+  <APEX:CommandButton VALUE="{!SAVE}" action="{!cmdSave}"></APEX:CommandButton>
+  </apex:form>
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

@@ -1,0 +1,8 @@
+<apex:page sidebar="false" standardStylesheets="false" cache="false" standardController="Account">
+    <apex:includeLightning />
+    <div id="lightning" ></div> 
+    <script>
+    $Lightning.use("c:LdsQuickContact", function() {$Lightning.createComponent("c:LdsQuickContact",
+        { label : "" },"lightning",function(cmp) {});});
+    </script>
+</apex:page>
